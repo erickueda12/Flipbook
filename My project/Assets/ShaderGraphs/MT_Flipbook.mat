@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MT_Flipbook
-  m_Shader: {fileID: -6465566751694194690, guid: fb352c1dbbff2474c8f78dc0ebad5223, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: b3cc25f14a69d2644a3f6f2fbd2ca68c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -37,8 +37,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _SpriteSheet:
+        m_Texture: {fileID: 2800000, guid: fe6a27e016c127642a17847b9fd741de, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _image:
-        m_Texture: {fileID: 2800000, guid: 73e02d53f70aecd4aaf1d65f554ae6a6, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -55,9 +59,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _On: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _fps: 1
-    m_Colors: []
+    - _fpsSpeed: 12
+    m_Colors:
+    - _Horizontal_e_Vertical: {r: 1, g: 8, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
